@@ -1,0 +1,17 @@
+<h2>My Hereos</h2>
+<ul class="heroes">
+  <!-- made a typo, therefore the rest of the children elements weren't affected-->
+  <li *ngFor="let hero of heroes">
+    <button
+      [class.selected]="hero === selectedHero"
+      type="button"
+      (click)="onSelect(hero)"
+    >
+      <span class="badge">{{ hero.id }}</span>
+      <span class="name">{{ hero.name }}</span>
+    </button>
+  </li>
+</ul>
+<div *ngIf="selectedHero">
+  <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+</div>
