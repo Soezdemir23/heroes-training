@@ -20,9 +20,9 @@ https://soezdemir23.github.io/heroes-training/dashboard
 + hero-search:
   + [html](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-search/hero-search.component.html)
   + [ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-search/hero-search.component.html)
-+ [app-routing.module.ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app-routing.module.ts)
-+ [app.component.html](https://github.com/Soezdemir23/heroes-training/blob/master/src/app.component.html)
-+ [hero.service.ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/hero.service.ts)
++ [app-routing.module.ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/app-routing.module.ts)
++ [app.component.html](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/app.component.html)
++ [hero.service.ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero.service.ts)
 
 ### additional steps done:
 
