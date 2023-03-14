@@ -21,6 +21,15 @@ I commented my findings and thought process inside the components.
 + app.component.html
 + hero.service.ts
 
+### additional steps done:
+
++ use this guide to deploy it in github: https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4
++ find the correct cli command to deploy it via google. 
+  + instead of ng buiild --prod --base-href "url"
+  +  ng build --configuration production --base-href "url
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
 ## Development server
