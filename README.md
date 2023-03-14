@@ -6,6 +6,9 @@ Learning the basics of Angular and get a feeling about how it works.
 I learned a lot about it, also saw some parallels with React.js.
 I commented my findings and thought process inside the components.
 
+You can access it live via this link:
+https://soezdemir23.github.io/heroes-training/dashboard
+
 ### Parts where I commented my thought process and understanding
 
 + dashboard:
