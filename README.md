@@ -6,6 +6,11 @@ Learning the basics of Angular and get a feeling about how it works.
 I learned a lot about it, also saw some parallels with React.js.
 I commented my findings and thought process inside the components.
 
+
+
+The tutorial is found inside the Angular docs:
+https://angular.io/tutorial/tour-of-heroes
+
 You can access it live via this link:
 https://soezdemir23.github.io/heroes-training/dashboard
 
@@ -33,9 +38,6 @@ https://soezdemir23.github.io/heroes-training/dashboard
 
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
+The same Licensing applies as the Angular docs licensing: MIT
