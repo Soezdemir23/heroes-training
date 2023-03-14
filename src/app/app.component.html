@@ -1,2 +1,13 @@
 <h1>{{ title }}</h1>
-<app-heroes></app-heroes>
+<nav>
+  <!-- similar to react-router -->
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<!--
+  + router outlet seems to be similar to react-query, but the wrapping is kept to a minimum.
+  + Imported through the app-routing module generationg with the option --module=app to modify app.module.ts
+  + changes components based on the url
+-->
+<router-outlet></router-outlet>
+<app-messages></app-messages>

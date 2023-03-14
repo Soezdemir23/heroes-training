@@ -1,17 +1,31 @@
 <h2>My Hereos</h2>
+<div>
+  <label for="new-hero">Hero name:</label>
+  <input id="new-hero" #heroName />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button
+    type="button"
+    class="add-button"
+    (click)="add(heroName.value); heroName.value = ''"
+  >
+    Add hero
+  </button>
+</div>
+
 <ul class="heroes">
   <!-- made a typo, therefore the rest of the children elements weren't affected-->
   <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{ hero.id }}">
+      <span class="badge">{{ hero.id }}</span> {{ hero.name }}
+    </a>
     <button
-      [class.selected]="hero === selectedHero"
       type="button"
-      (click)="onSelect(hero)"
+      class="delete"
+      title="delete hero"
+      (click)="delete(hero)"
     >
-      <span class="badge">{{ hero.id }}</span>
-      <span class="name">{{ hero.name }}</span>
+      x
     </button>
   </li>
 </ul>
-<div *ngIf="selectedHero">
-  <app-hero-detail [hero]="selectedHero"></app-hero-detail>
-</div>

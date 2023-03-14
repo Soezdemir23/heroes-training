@@ -1,0 +1,18 @@
+<!-- Actually a nice example of how I should best treat a searchbar component. Even for react. -->
+<div id="search-component">
+  <label>Hero Search</label>
+  <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+  <ul class="search-result">
+    <li *ngFor="let hero of heroes$ | async">
+      <a routerLink="/detail/{{ hero.id }}">
+        {{ hero.name }}
+        <!-- for my project, it should have been clickable results
+                     that you can add to see it show up in the main board.
+                    heroes$ stands for Observable, so in my understanding
+                    Promises in an array. 
+                    piped to async, so it's subscribed(?) to it and can be fetched? 
+        -->
+      </a>
+    </li>
+  </ul>
+</div>

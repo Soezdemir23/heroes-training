@@ -1,0 +1,15 @@
+<h2>Top Heroes</h2>
+<div class="heroes-menu">
+  <!-- 
+    I wish react had this too. We have to either map through the data inside the JSX or at worst case, 
+    manipulate the code according to our needs to create a subcomponent by a function to pass it into it as 
+    child/children. More often than not, using ternary operation, or if you are more sophisticated, using 
+    boolean condition(?).
+  -->
+  <a *ngFor="let hero of heroes" routerLink="/detail/{{ hero.id }}">
+    {{ hero.name }}
+  </a>
+</div>
+<!-- Really though I would pass the information from hero down here. 
+  But it is all in the services. Dependency Injection to the rescue! -->
+<app-hero-search></app-hero-search>
