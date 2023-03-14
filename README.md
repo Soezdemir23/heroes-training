@@ -16,7 +16,7 @@ https://soezdemir23.github.io/heroes-training/dashboard
   + [ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/dashboard/dashboard.component.ts)
 + hero-detail:
   + [html](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-detail/hero-detail.component.html)
-  + [ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-detail/hero-detail.component.html
+  + [ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-detail/hero-detail.component.html)
 + hero-search:
   + [html](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-search/hero-search.component.html)
   + [ts](https://github.com/Soezdemir23/heroes-training/blob/master/src/app/hero-search/hero-search.component.html)
