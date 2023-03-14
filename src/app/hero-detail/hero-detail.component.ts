@@ -1,5 +1,5 @@
 import { Hero } from '../hero';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeroService } from '../hero.service';
 
 import { ActivatedRoute } from '@angular/router';
@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.css'],
 })
-export class HeroDetailComponent implements OnInit {
+export class HeroDetailComponent {
   hero: Hero | undefined;
 
   constructor(

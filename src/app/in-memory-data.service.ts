@@ -21,7 +21,6 @@ export class InMemoryDataService {
     return { heroes };
   }
 
-  // So what exactly happens here?
   // we pass a hero array and check if it's empty and return 11
   // if not empty, return the id of the hero object that is greatest
   // this way, no empty id is being returned.
